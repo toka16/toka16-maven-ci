@@ -1,8 +1,6 @@
 <?xml version="1.0"?>
-   <project name="toka16-vamen-ci" default="info">
+   <project name="toka16-vamen-ci" default="test">
    
-   <target name="info">
-      <echo>Hello World - Welcome to Apache Ant!</echo>
-   </target>
+   <target name="test"> </target>
    
 </project>
