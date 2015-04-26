@@ -5,11 +5,17 @@
  */
 package main.java.com.mycompany.maven_travis_ci;
 
+import java.util.Random;
+
 /**
  *
  * @author toka
  */
 public class MainClass {
+    
+    public int mockingMethod(){
+        return new Random().nextInt();
+    }
     
     public static void main(String[] args) {
         System.out.println("Hello World!");
